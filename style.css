@@ -1,0 +1,77 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 40px 48px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 32px;
+  }
+  
+  /* 状态文案 */
+  .status-row {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  
+  /* 圆圈容器 */
+  .circle-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* 圆圈本体 */
+  .circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 12px solid #f0f0f0; /* 基础边框 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* 红色状态 */
+  .circle-not-ok {
+    border-color: #e76f51;
+    color: #e76f51;
+  }
+  
+  /* 绿色状态 */
+  .circle-ok {
+    border-color: #2a9d8f;
+    color: #2a9d8f;
+  }
+  
+  .hours-text {
+    font-size: 32px;
+    font-weight: 700;
+  }
